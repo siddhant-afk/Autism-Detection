@@ -1,0 +1,51 @@
+body{
+
+    font-family: 'Montserrat';
+}
+
+.sidebar{
+    position: sticky;
+    background-color: #282A3A;
+    height: 300vh;
+    box-shadow: 32px 32px 32px 0 rgba(127, 127, 127, 0.37);
+}
+
+ul{
+    margin-top: 30%;
+    list-style-type: none;
+}
+.nav-links  > a{
+    
+    color: rgb(158, 158, 158);
+    text-underline-offset: 1em;
+
+}
+
+.nav-links  > a:hover{
+    
+    color: white;
+    text-decoration: none;
+    
+
+
+}
+
+.nav-links{
+    margin-top: 10%;
+   
+    
+}
+
+.questionnaire{
+    margin-left: 1%;
+}
+
+label{
+
+    margin-top: 3%;
+}
+
+.col-md-9{
+
+    background-color: #F2EFE5;
+}

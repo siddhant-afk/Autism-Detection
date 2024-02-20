@@ -1,0 +1,30 @@
+body{
+
+    background-color: #FAAB78;
+    font-family: 'Montserrat';
+    
+}
+
+.signup-card{
+
+  
+    margin-top: 3%;
+
+    height: 550px;
+    width: 400px;
+
+    background: rgba( 255, 255, 255, 1 );
+
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card-img {
+    padding: 0;
+    margin-left: 0;
+    height: 500px;
+    max-width: 400px;
+    
+}

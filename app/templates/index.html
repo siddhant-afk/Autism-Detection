@@ -1,0 +1,67 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <link rel="stylesheet" href="../static/styles.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent container pb-3 pt-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Neuro<span style="color: #ff853a;">bloom</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-5" aria-current="page" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+              </li>
+              
+        
+            </ul>
+         
+          </div>
+        </div>
+      </nav>
+<section class="hero container pb-5">
+<div class="row mt-5">
+
+    <div class="col-md-7 tagline">
+        <h1 style="font-weight: 900;" class="mt-5">Precision meets potential</h1>
+        <h1 style="color: #ff853a; font-weight: 900;">Advanced AI for accurate ASD detection.</h1>
+        <br>
+        <a href="" class="btn nav-button"> Get Started</a>
+    </div>
+    <div class="col-md-5">
+        <img src="../static/3d-business-young-doctors-standing-together.png" class="hero-img">
+    </div>
+</div>
+  
+</section>
+<br>
+<section class="services container mt-3">
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <img src="../static/3d-business-graduated-doctor-sitting-on-a-pile-of-books.png" alt="" class="images">
+        </div>
+        <div class="col-md-6">
+            <h1 style="font-weight: 900;" class="subheading">Empower insight.</h1> <br>
+            <p>Introducing our cutting-edge ML model designed to detect autism spectrum disorder (ASD) with unprecedented accuracy. Leveraging advanced algorithms and extensive datasets, our model swiftly analyzes behavioral patterns and communication traits to provide valuable insights into potential ASD indicators.</p>
+        </div>
+    </div>
+    <div class="row mt-3 mb-5">
+        <div class="col-md-6">
+            <h1 style="font-weight: 900;" class="subheading">Tailored Therapy: Your Personalized Path to Wellness</h1> <br>
+            <p>Using sophisticated algorithms and deep learning techniques, our AI analyzes your input to recommend the most effective interventions, support groups, and therapeutic approaches, ensuring a tailored path to wellness and empowerment. With our AI's intuitive interface and comprehensive database, you can confidently explore options that resonate with your needs, fostering a proactive journey towards optimal well-being.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="../static/3d-business-young-woman-talking-online.png" alt="" class="images">
+        </div>
+    </div>
+</section>
+
+{% endblock %}

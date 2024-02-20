@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+
+<div class="container text-center">
+    <h1 style="font-weight: 900;" class="mt-5">{{result}}</h1>
+    <h2 style="font-weight: 900; color: #FAAB78;"> Professional help at your finger tips 👇</h2>
+</div>
+
+
+<div class="container text-center">
+    <h2 style="font-weight: 900; color: #FAAB78;">Focus Groups</h2>
+
+    {% for chunk in focus %}
+    <p>{{chunk.text}}</p> <br>
+    {% endfor %}
+
+    <h2 style="font-weight: 900; color: #FAAB78;">Therapies</h2>
+    {% for chunk in therapies %}
+    <p>{{chunk.text}}</p> <br>
+    {% endfor %}
+
+
+    <h2 style="font-weight: 900; color: #FAAB78;">Treatments</h2>
+    {% for chunk in treatments %}
+    <p>{{chunk.text}}</p> <br>
+    {% endfor %}
+
+</div>
+{% endblock %}
+
